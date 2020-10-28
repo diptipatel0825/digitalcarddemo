@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg1 {
+    background-image: url('/img/security-officer.jpg');
+    background-size: cover;
+    height: 60vh;
+}
+
+.logo {
+    height: 75px;
+    width: 180px;
+    float: left;
+    background-color: white;
+}
+
+.bg2 {
+    background-image: url('/img/simple\ bg.jpg');
+    background-size: cover;
+    height: 40vh;
+}
+
+.women {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 30px lightslategrey;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.name {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.money {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.arrow {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.bg3 {
+    width: 102%;
+    height: 53px;
+    background-color: lightblue;
+}
+
+.clr {
+    background-color: rgb(172, 179, 185);
+}
+
+.clr:hover {
+    background-color: white;
+    border-bottom: 5px blue;
+}
+
+.icon {
+    color: rgb(160, 28, 28);
+}
+
+.imgf {
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    justify-content: center;
+    transition: 1s;
+}
+
+.imgf:hover {
+    box-shadow: 0 0 9px rgb(59, 59, 59);
+}
+
+.imgf1 {
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+}
+
+.imgp {
+    transition: .5s;
+}
+
+.imgp:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.fff {
+    border-radius: 25px;
+}
+
+.bg4 {
+    background-image: url('/img/simple\ bg.jpg');
+    background-size: cover;
+    height: 50vh;
+}
+
+@media screen and (max-width:600px) {}
